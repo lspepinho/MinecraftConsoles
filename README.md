@@ -2,13 +2,18 @@
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/5CSzhc9t)
 
-![img.png](.github/IMG_8725.png)
+![Tutorial World](.github/IMG_8725.png)
 
 ## Introduction
 
 This project contains the source code of Minecraft Legacy Console Edition v1.3.0494.0 from https://archive.org/details/minecraft-legacy-console-edition-source-code, with some fixes and improvements applied
 
 [Nightly Build](https://github.com/smartcmd/MinecraftConsoles/releases/tag/nightly)
+
+## Platform Support
+
+- **Windows**: Supported for building and running the project
+- **macOS / Linux**: The Windows nightly build may run through Wine or CrossOver based on community reports, but this is unofficial and not currently tested by the maintainers
 
 ## Features
 
@@ -60,8 +65,7 @@ For more information, see [COMPILE.md](COMPILE.md)
 
 ## Known Issues
 
-- Builds for other platforms have not been tested and are most likely non-functional
-- There are some render bugs in the Release mode build
+- Native builds for platforms other than Windows have not been tested and are most likely non-functional. The Windows nightly build may still run on macOS and Linux through Wine or CrossOver, but that path is unofficial and not currently supported
 
 ## Star History
 
